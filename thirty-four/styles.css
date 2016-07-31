@@ -1,0 +1,213 @@
+/*
+  
+  holiday bullshit red #e61a30
+  green #3bb23b
+  
+*/
+
+body {
+  background-image: url(blue-steps.png);
+  background-color: #f0f7fc;
+  font-family: 'colfax-web', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 18px;
+  color: #373737;
+  padding: 0;
+  margin: 0;
+}
+
+.container, .card, .when-where {
+  margin: 1em auto;
+  max-width: 33em;
+}
+
+.top-section {
+  background-image: url(red-trees.png);
+  background-color: #e61a30;
+  border-bottom: 8px solid white;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0 60px;
+}
+
+h1, h2 {
+  font-family: 'freight-display-pro', Times, serif;
+  line-height: 1em;
+  text-align: center;
+  margin: 0 0 1rem;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 0.875em;
+  margin-bottom: 0.5em;
+}
+
+h1 > span {
+  display: block;
+}
+
+.title, .card h3 {
+  font-family: 'brandon-grotesque', 'Avenir Next', sans-serif;
+}
+
+.title {
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 1rem;
+}
+
+.special-guests {
+  font-size: 1.25rem;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.special-guests .title {
+  font-size: 0.75rem;
+}
+
+.special-guests .and {
+  margin-top: 1em;
+}
+
+.special-guests h3 {
+  margin: 0;
+}
+
+.special-guests p {
+  font-family: 'freight-display-pro';
+  font-style: italic;
+  margin: 0;
+}
+
+.when-where {
+  background-color: white;
+  margin-top: -2.75rem;
+  padding: 2rem 20px;
+  text-align: center;
+}
+
+.when {
+  color: #309230;
+  display: block;
+  line-height: 2em;
+  margin: 0 0 1em;  
+  font-family: 'freight-display-pro';
+}
+
+.when .day-date {
+  font-weight: 700;
+  font-size: 2.375rem;
+}
+
+.when .time {
+  font-size: 2rem;
+}
+
+.where {
+  color: #666;
+}
+
+.where > div {
+  font-family: 'freight-display-pro';
+  font-size: 1.5em;
+}
+
+.where address {
+  color: #999;
+  font-family: 'brandon-grotesque';
+  font-size: 1rem;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+.where address b {
+  color: #666;
+  font-weight: normal;
+}
+
+.card {
+  background: white;
+  border-top: 8px solid #3bb23b;
+  box-shadow: 0 -1px 0 #fff;
+  color: #373737;
+  padding: 20px;
+}
+
+.card a {
+  color: inherit;
+}
+
+.card b {
+  color: #c00;
+  font-family: 'brandon-grotesque';
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.card h3 {
+  color: #a00;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 0 20px;
+}
+
+.menu .purveyor {
+  font-size: 0.875rem;
+  margin: -1rem 0 2rem;
+  text-align: center;
+}
+
+.menu ul {
+  margin: 2em 0;
+}
+
+.menu .food-item {
+  color: #c00;
+}
+
+.menu li {
+  margin: 1em 0;
+}
+
+.rsvp {
+  text-align: center;
+}
+
+.rsvp h3 {
+  background-color: #e61a30;
+  background-image: url(red-sawtooth.png);
+  background-size: 80px 20px;
+  background-repeat: repeat-x;
+  background-position: left bottom;
+  color: white;
+  margin: -20px -20px 0 -20px;
+  padding: 20px 0;
+}
+
+.rsvp .signoff {
+  font-family: 'freight-display-pro';
+  font-size: 2em;
+  font-style: italic;
+  margin: 1rem 0 0;
+}
+
+/*
+.primary-header {
+  position: relative; }
+  .primary-header .logo {
+    padding-top: 1.25em;
+    padding-bottom: 1.25em; }
+*/
+
+.rsvp .logo {
+  margin: 10px 0 40px;
+}
+  .dd-seal .circle {
+    fill: #e61a30; }
+  .dd-seal .letters {
+    fill: white; }
+  .dd-seal .lines {
+    stroke: white; }

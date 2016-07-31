@@ -1,0 +1,25 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: David Demaree
+email: david@demaree.me
+description: > # this means to ignore newlines until "baseurl:"
+  I'm a programmer, web designer, and businessperson based in metro NYC, currently serving as senior product manager for Adobe Typekit.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://demaree.me" # the base hostname & protocol for your site
+domain: demaree.me
+twitter_username: ddemaree
+github_username:  ddemaree
+default_image: "http://res.cloudinary.com/demaree/image/fetch/w_600,ar_1.5,c_fill,dpr_2,g_face,z_0.5/http://images.demaree.me/imgix/dd-photo.jpg"
+default_image_alt: "Handsome photo of David Demaree, taken by Ryan Carver"
+
+# Build settings
+markdown: kramdown
+exclude:
+- Procfile
+- Caddyfile

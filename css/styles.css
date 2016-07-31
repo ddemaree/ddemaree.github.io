@@ -1,0 +1,194 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", sans-serif;
+  font-size: 18px;
+}
+
+a {
+  color: inherit;
+}
+
+hr {
+  border: 0;
+  border-bottom: 1px solid #ccc;
+  height: 0px;
+  margin: 2em 0;
+}
+
+h1, h2, h3 {
+  line-height: 1.1em;
+}
+
+h1 {
+  font-size: 1.75rem;
+}
+
+h3 {
+  font-size: inherit;
+  margin-top: 2em;
+}
+
+code, pre {
+}
+
+.container {
+  max-width: calc(580px);
+  margin: 0 auto;
+  padding: 0.75rem;
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: calc(100% - 40px);
+  }
+}
+
+/* header */
+
+.icon-demaree {
+  color: #ccc;
+  width: 64px;
+  height: 64px;
+  display: block;
+  margin: 0 auto;
+}
+
+.banner .photo {
+  background-color: #999;
+  margin: 0 -20px;
+}
+
+.banner img,
+.banner picture,
+.banner source {
+  width: auto;
+  max-width: 100%;
+  display: block;
+}
+
+.banner .title {
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+.banner .subtitle {
+  color: #666;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-top: 0.25em;
+}
+
+@media (max-width: 400px) {
+  .banner .title {
+    font-size: 1.875rem;
+  }
+}
+
+/* links list */
+
+.links-list {
+  padding: 0;
+  list-style: none;
+}
+
+.links-list li {
+  display: inline-block;
+  margin: 0.375em 0 0 0;
+}
+
+.links-list a {
+  display: inline-flex;
+  padding: 4px 8px;
+  align-items: center;
+  background-color: #666;
+  border-radius: 4px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+}
+
+@media (max-width: 600px) {
+  .links-list li {
+    display: block;
+  }
+  
+  .links-list a {
+    display: flex;
+  }
+}
+
+.links-list .icon {
+  width: 24px;
+  height: 24px;
+  padding-right: 12px;
+  display: inline-block;
+}
+
+.links-list a:hover {
+  background-color: #da0;
+}
+
+
+/* "freight" theme - Typekit fonts (Darden Studio + Typofonderie) */
+
+body.freight {
+  font-family: 'freight-text-pro', Georgia, serif;
+}
+
+body.freight .title,
+body.freight .subtitle {
+  text-align: center;
+}
+
+body.freight .title {
+  font-family: 'aw-conqueror-carved-one', 'freight-display-pro';
+  text-transform: none;
+}
+
+body.freight .subtitle {
+  font-family: 'aw-conqueror-sans';
+}
+
+body.freight .links-list {
+  font-family: "aw-conqueror-sans";
+}
+
+/* "ideal" theme - H&Co type */
+
+body.ideal {
+  font-family: "Sentinel A", "Sentinel B", Georgia, serif;
+}
+
+body.ideal h1, body.ideal h2, body.ideal h3, body.ideal h4 {
+  font-family: "Ideal Sans SSm A", "Ideal Sans SSm B";
+}
+
+body.ideal h3,
+body.ideal .links-list {
+  font-family: "Ideal Sans SSm A", "Ideal Sans SSm B";
+  font-size: inherit;
+  text-transform: uppercase;
+}
+
+body.ideal code, body.ideal pre {
+  font-family: 'Operator Mono A', 'Operator Mono B', Menlo, Consolas, monospace;
+  padding-left: 0.25em;
+}
+
+body.dark {
+  background-color: #1a1a1a;
+  color: #ccc;
+}
+
+body.dark a {
+  color: white;
+}
+
+body.dark .icon-demaree {
+  color: #666;
+}
+
+body.dark .subtitle {
+  color: #999;
+}

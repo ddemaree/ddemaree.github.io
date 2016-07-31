@@ -1,0 +1,62 @@
+---
+layout: default
+---
+{% capture hidden_track %}
+# About this site
+
+This document was lovingly handcrafted in Coda iOS (with a bit of editing in Coda for Mac). It's written in pure HTML5 and CSS; no preprocessors or flat-file CMSes were employed in its making.
+
+Body text is set in [Freight Text][ft] from Darden Studio; title and H1s are set in [AW Conqueror Carved One], subtitle, H2s, and social links set in [AW Conqueror Sans], from Typofonderie. All web fonts served via Typekit.
+
+Many thanks to Chris Coyier and CSS Tricks, for showing me how to use SVG symbols and flexbox.
+
+Much gratitude to [Matt Haughey's definitive post on OpenGraph/Twitter Card meta tags](https://medium.com/slack-developer-blog/everything-you-ever-wanted-to-know-about-unfurling-but-were-afraid-to-ask-or-how-to-make-your-e64b4bb9254#.sfy2v7clf)
+{% endcapture %}
+
+<header class="banner">
+  <svg class="icon-demaree"><use xlink:href="images/symbol-defs.svg#icon-demaree"></use></svg>
+  
+  <h1 class="title">David Demaree</h1>
+  <h2 class="subtitle">Softwaremaker</h2>
+  
+  <div class="photo">
+  	<picture>
+	    <source srcset="http://res.cloudinary.com/demaree/image/fetch/w_600,ar_1.5,c_fill,dpr_2,g_face,z_0.5/http://images.demaree.me/imgix/dd-photo.jpg" media="(min-width: 600px)">
+	    <source srcset="http://res.cloudinary.com/demaree/image/fetch/w_400,ar_1,c_fill,dpr_2,g_face,z_0.5/http://images.demaree.me/imgix/dd-photo.jpg" media="(max-width: 400px)">
+	    <img src="http://res.cloudinary.com/demaree/image/fetch/w_1920,ar_1.33,q_auto:low,c_fill,g_face,z_0.5/http://images.demaree.me/imgix/dd-photo.jpg">
+	  </picture>
+  </div>
+  
+</header>
+
+<p>I'm a programmer, web designer, and businessperson, currently serving as senior product manager for <a href="https://typekit.com">Adobe Typekit</a>, where I help lead user experience design and business strategy alongside <a href="https://typekit.com/about">a crackerjack team of done-getters</a>.</p> <p>Before joining Adobe, I worked on a small team building a local listings product for Metromix, a joint venture of Gannett &amp; Tribune, and before that I ran a small agency that designed and developed Ruby on Rails apps for clients including DirecTV, Viacom, ABC, and T-26.</p>
+
+<p>In 2016, A Book Apart published my first book, <a href="http://abookapart.com/products/git-for-humans"><cite>Git for Humans</cite></a>, a simple guide to Git and version control basics that aims to demystify what's really going on when you type Git commands. You can get the book <a href="http://abookapart.com/products/git-for-humans">directly from A Book Apart</a>, or from <a href="https://itun.es/us/QC5vab.l">iBooks</a>. You can read an excerpt from the book, <a href="http://alistapart.com/article/the-art-of-the-commit">"The Art of the Commit"</a>, on A List Apart.</p>
+
+<p>I live and work in the suburbs of New York City with my wife Jody Weinmann, and our daughter June, who is a lion.</p>
+
+<ul class="links-list">
+  <li>
+    <a href="mailto:david@demaree.me">
+  	  <svg class="icon icon-email"><use xlink:href="images/symbol-defs.svg#icon-email"></use></svg>
+  	  <span class="service">Email&nbsp;me</span>
+    </a>
+  </li>
+  <li>
+    <a href="https://twitter.com/ddemaree">
+      <svg class="icon icon-twitter"><use xlink:href="images/symbol-defs.svg#icon-twitter"></use></svg>
+      <span class="service">Twitter</span>
+    </a>
+  </li>
+  <li><a href="https://github.com/ddemaree">
+    <svg class="icon icon-github"><use xlink:href="images/symbol-defs.svg#icon-github"></use></svg> 
+    <span class="service">GitHub</span>
+  </a></li>
+  <li><a href="https://linkedin.com/in/ddemaree">
+    <svg class="icon icon-linkedin"><use xlink:href="images/symbol-defs.svg#icon-linkedin"></use></svg>
+    <span class="service">LinkedIn</span></a></li>
+  <li><a href="https://medium.com/@ddemaree">
+    <svg class="icon icon-medium"><use xlink:href="images/symbol-defs.svg#icon-medium"></use></svg>
+    <span class="service">Medium</span></a></li>
+</ul>
+
