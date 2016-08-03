@@ -5,3 +5,5 @@ The secret sauce to making web software from an iOS device is pretty simple: do 
 ## Tips & tricks
 
 To edit posts—including this one—from my iOS devices, I use Working Copy, a lovely Git client with excellent support for iOS's Document Provider extension API, which means I can open Markdown drafts in any text editor that uses document providers. I open and edit drafts in my Markdown writing app of choice, Ulysses, then switch back to Working Copy to commit changes and push them to GitHub.
+
+Images are hosted in an Amazon S3 bucket, and I can upload them from Transmit on iOS. I use Cloudinary to transform them.
